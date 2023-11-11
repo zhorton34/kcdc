@@ -8,22 +8,10 @@ export default function Home() {
           KCDC Website (We do doords)
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
+          <img
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://i.pinimg.com/736x/d3/43/9f/d3439f909c51abbef5b8abb73081bd99.jpg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="https://i.pinimg.com/736x/d3/43/9f/d3439f909c51abbef5b8abb73081bd99.jpg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            src="https://i.pinimg.com/736x/d3/43/9f/d3439f909c51abbef5b8abb73081bd99.jpg"
+          />
         </div>
       </div>
 
